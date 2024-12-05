@@ -5,4 +5,4 @@ git clone https://github.com/bdaylor13/4300_final_nba_daylor.git
 cd WebApp_Python_Flask_Mysql/
 python3 -m venv myvenv
 source myvenv/bin/activate
-Python3 nba_ec2.py
+Python3 ec2_file.py
