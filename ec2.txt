@@ -1,0 +1,8 @@
+sudo apt update -y
+sudo yum install python3-pip -y
+yum install git -y
+git clone https://github.com/bdaylor13/4300_final_nba_daylor.git
+cd WebApp_Python_Flask_Mysql/
+python3 -m venv myvenv
+source myvenv/bin/activate
+Python3 nba_ec2.py
