@@ -1,8 +1,7 @@
 sudo apt update -y
-sudo yum install python3-pip -y
-yum install git -y
+sudo apt install python3-pip git python3-venv -y
 git clone https://github.com/bdaylor13/4300_final_nba_daylor.git
-cd WebApp_Python_Flask_Mysql/
+cd 4300_final_nba_daylor
 python3 -m venv myvenv
 source myvenv/bin/activate
-Python3 ec2_file.py
+python3 ec2_file.py
