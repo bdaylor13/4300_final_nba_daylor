@@ -4,5 +4,5 @@ git clone https://github.com/bdaylor13/4300_final_nba_daylor.git
 cd 4300_final_nba_daylor
 python3 -m venv myvenv
 source myvenv/bin/activate
-pip3 install pandas boto3 mysql-connector-python
+pip3 install pandas boto3 mysql-connector-python json
 python3 ec2_file.py
