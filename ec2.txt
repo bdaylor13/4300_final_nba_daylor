@@ -5,4 +5,4 @@ cd 4300_final_nba_daylor
 python3 -m venv myvenv
 source myvenv/bin/activate
 pip3 install pandas boto3 mysql-connector-python json
-python3 ec2_file.py
+python3 final_file.py
